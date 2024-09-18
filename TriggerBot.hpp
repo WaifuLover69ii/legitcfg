@@ -1,18 +1,4 @@
 #pragma once
-#include <iostream>
-#include <vector>
-#include <set>
-#include "../Core/LocalPlayer.hpp"
-#include "../Core/Offsets.hpp"
-#include "../Utils/Memory.hpp"
-#include "../Math/Vector2D.hpp"
-#include "../Math/Vector3D.hpp"
-#include "../Utils/XDisplay.hpp"
-#include "../Utils/Conversion.hpp"
-#include "../Utils/Config.hpp"
-#include "../Utils/Features.hpp"
-#include "../Utils/Weapons.hpp"
-#include "../Core/Level.hpp"
 
 // UI //
 #include "../imgui/imgui.h"
