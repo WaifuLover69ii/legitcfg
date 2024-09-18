@@ -2,7 +2,6 @@
 #include <iostream>
 #include <vector>
 #include <set>
-#include "../Core/Player.hpp"
 #include "../Core/LocalPlayer.hpp"
 #include "../Core/Offsets.hpp"
 #include "../Utils/Memory.hpp"
