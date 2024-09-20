@@ -8,7 +8,6 @@ constexpr long OFF_GLOBAL_VARS = 0x18351C0; //[Miscellaneous]->GlobalVars
 constexpr long OFF_NAMELIST = 0xD425FE0; //[Miscellaneous]->NameList
 
 // Buttons
-
 constexpr long OFF_IN_ATTACK = 0x76E8820; //[Buttons]->in_attack
 constexpr long OFF_IN_JUMP = 0x76E8940; //[Buttons]->in_jump
 constexpr long OFF_IN_DUCK = 0x76E8A30; //[Buttons]->in_duck
