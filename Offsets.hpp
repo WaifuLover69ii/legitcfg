@@ -1,16 +1,16 @@
 // Game Version: v3.0.80.27
 #pragma once
 constexpr long OFF_REGION = 0x140000000; //[Static]->Region
-constexpr long OFF_LEVEL = 0x17f66c4; //[Miscellaneous]->LevelName
-constexpr long OFF_LOCAL_PLAYER = 0x23f52b8;//[Miscellaneous]->LocalPlayer
-constexpr long OFF_ENTITY_LIST = 0x1f22028; //[Miscellaneous]->cl_entitylist
+constexpr long OFF_LEVEL = 0x18356C4; //[Miscellaneous]->LevelName
+constexpr long OFF_LOCAL_PLAYER = 0x24342B8;//[Miscellaneous]->LocalPlayer
+constexpr long OFF_ENTITY_LIST = 0x1F61048; //[Miscellaneous]->cl_entitylist
 constexpr long OFF_GLOBAL_VARS = 0x17f61c0; //[Miscellaneous]->GlobalVars
-constexpr long OFF_NAMELIST = 0xd3e54d0; //[Miscellaneous]->NameList
+constexpr long OFF_NAMELIST = 0xD425FE0; //[Miscellaneous]->NameList
 
 // Buttons
-constexpr long OFF_IN_ATTACK = 0x076a7d20; //[Buttons]->in_attack
-constexpr long OFF_IN_JUMP = 0x076a7e28; //[Buttons]->in_jump
-constexpr long OFF_IN_DUCK = 0x076a7f30; //[Buttons]->in_duck
+constexpr long OFF_IN_ATTACK = 0x76E8820; //[Buttons]->in_attack
+constexpr long OFF_IN_JUMP = 0x76E8940; //[Buttons]->in_jump
+constexpr long OFF_IN_DUCK = 0x76E8A30; //[Buttons]->in_duck
 constexpr long OFFSET_IN_FORWARD = 0x076a7c70; //[Buttons]->in_forward
 constexpr long OFFSET_TRAVERSAL_START_TIME = 0x2b70; //[RecvTable.DT_LocalPlayerExclusive]->m_traversalStartTime
 constexpr long OFFSET_TRAVERSAL_PROGRESS = 0x2b6c; //[RecvTable.DT_LocalPlayerExclusive]->m_traversalProgress
@@ -19,8 +19,8 @@ constexpr long OFFSET_WALL_RUN_START_TIME = 0x3674; //[RecvTable.DT_LocalPlayerE
 constexpr long OFFSET_WALL_RUN_CLEAR_TIME = 0x3678; //RecvTable.DT_LocalPlayerExclusive]->m_wallRunClearTime
 
 // Player
-constexpr long OFF_VIEW_MATRIX = 0x11a350; //[RecvTable.DT_Player]->ViewMatrix
-constexpr long OFF_VIEW_RENDER = 0x76a7c38; //[RecvTable.DT_Player]->ViewRender
+constexpr long OFF_VIEW_MATRIX = 0x11A350; //[RecvTable.DT_Player]->ViewMatrix
+constexpr long OFF_VIEW_RENDER = 0x76E8738; //[RecvTable.DT_Player]->ViewRender
 constexpr long OFF_VIEW_MODELS = 0x2d98; //[RecvTable.DT_Player]->m_hViewModels
 constexpr long OFF_ZOOMING = 0x1be1; //[RecvTable.DT_Player]->m_bZooming
 constexpr long OFF_LOCAL_ORIGIN = 0x017c; //[DataMap.CBaseViewModel]->m_vecAbsOrigin
