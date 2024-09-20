@@ -6,7 +6,9 @@ constexpr long OFF_LOCAL_PLAYER = 0x24342B8;//[Miscellaneous]->LocalPlayer
 constexpr long OFF_ENTITY_LIST = 0x1F61048; //[Miscellaneous]->cl_entitylist
 constexpr long OFF_GLOBAL_VARS = 0x18351C0; //[Miscellaneous]->GlobalVars
 constexpr long OFF_NAMELIST = 0xD425FE0; //[Miscellaneous]->NameList
+
 // Buttons
+
 constexpr long OFF_IN_ATTACK = 0x76E8820; //[Buttons]->in_attack
 constexpr long OFF_IN_JUMP = 0x76E8940; //[Buttons]->in_jump
 constexpr long OFF_IN_DUCK = 0x76E8A30; //[Buttons]->in_duck
@@ -16,6 +18,7 @@ constexpr long OFFSET_TRAVERSAL_PROGRESS = 0x2b6c; //[RecvTable.DT_LocalPlayerEx
 constexpr long OFFSET_TRAVERSAL_RELEASE_TIME = 0x2b78; //[RecvTable.DT_LocalPlayerExclusive]->m_traversalReleaseTime
 constexpr long OFFSET_WALL_RUN_START_TIME = 0x3674; //[RecvTable.DT_LocalPlayerExclusive]->m_wallRunStartTime
 constexpr long OFFSET_WALL_RUN_CLEAR_TIME = 0x3678; //RecvTable.DT_LocalPlayerExclusive]->m_wallRunClearTime
+
 // Player
 constexpr long OFF_VIEW_MATRIX = 0x11A350; //[RecvTable.DT_Player]->ViewMatrix
 constexpr long OFF_VIEW_RENDER = 0x76E8738; //[RecvTable.DT_Player]->ViewRender
@@ -48,6 +51,7 @@ constexpr long OFF_SQUAD_ID = 0x0344; //m_squadID
 constexpr long OFF_GAMEMODE = 0x0242d460; //mp_gamemode
 constexpr long OFF_SPECTATOR_LIST = 0x1f63068; //IDA signtature -> [48 8B 0D ? ? ? ? 48 85 C9 74 ? 48 8B 01 FF ? ? 48 85 C0 74 ? 48 63 4E 38]
 constexpr long OFF_SPECTATOR_LIST_ARRAY = 0x974;
+
 // Weapon
 constexpr long OFF_WEAPON_HANDLE = 0x1944; //[RecvTable.DT_BaseCombatCharacter]->m_latestPrimaryWeapons
 constexpr long OFF_WEAPON_INDEX = 0x1788; //[RecvTable.DT_WeaponX]->m_weaponNameIndex
@@ -56,7 +60,9 @@ constexpr long OFF_GRENADE_HANDLE = 0x1954; //[RecvTable.DT_Player]->m_latestNon
 constexpr long OFF_SKIN = 0x0d68; //[RecvTable.DT_BaseAnimating]->m_nSkin
 constexpr long OFF_WEAPON_DISCARDED = 0x15a9;//[RecvTable.DT_WeaponX]->m_discarded
 constexpr long OFFSET_TIME_BASE = 0x2088; //[RecvTable.DT_Player]->m_currentFramePlayer.timeBase
-constexpr long OFF_PROJECTILESCALE = 0x04f4 + 0x19d8; //CWeaponX!m_flProjectileScale //[WeaponSettings]->projectile_gravity_scale + [WeaponSettingsMeta].base
+
+
+constexpr long OFF_PROJECTILESCALE = OFF_PROJECTILESPEED + 0x8; //CWeaponX!m_flProjectileScale //[WeaponSettings]->projectile_gravity_scale + [WeaponSettingsMeta].base
 constexpr long OFF_PROJECTILESPEED = 0x04ec + 0x19d8; //CWeaponX!m_flProjectileSpeed //[WeaponSettings]->projectile_launch_speed + [WeaponSettingsMeta].base
 // Glow
 constexpr long HIGHLIGHT_TYPE_SIZE = 0x34;
