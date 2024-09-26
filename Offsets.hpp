@@ -5,13 +5,13 @@ constexpr long OFF_LEVEL = 0x18356C4; //[Miscellaneous]->LevelName
 constexpr long OFF_LOCAL_PLAYER = 0x24342B8;//[Miscellaneous]->LocalPlayer
 constexpr long OFF_ENTITY_LIST = 0x1F61048; //[Miscellaneous]->cl_entitylist
 constexpr long OFF_GLOBAL_VARS = 0x18351C0; //[Miscellaneous]->GlobalVars
-constexpr long OFF_NAMELIST = 0xD425FE0; //[Miscellaneous]->NameList
+constexpr long OFF_NAMELIST = 0xd426160; //[Miscellaneous]->NameList
 
 // Buttons
-constexpr long OFF_IN_ATTACK = 0x76E8820; //[Buttons]->in_attack
-constexpr long OFF_IN_JUMP = 0x76E8940; //[Buttons]->in_jump
-constexpr long OFF_IN_DUCK = 0x76E8A30; //[Buttons]->in_duck
-constexpr long OFFSET_IN_FORWARD = 0x76e8770; //[Buttons]->in_forward
+constexpr long OFF_IN_ATTACK = 0x76e89c0; //[Buttons]->in_attack
+constexpr long OFF_IN_JUMP = 0x76e8aa8; //[Buttons]->in_jump
+constexpr long OFF_IN_DUCK = 0x76e8bb0; //[Buttons]->in_duck
+constexpr long OFFSET_IN_FORWARD = 0x76e88f0; //[Buttons]->in_forward
 constexpr long OFFSET_TRAVERSAL_START_TIME = 0x2b70; //[RecvTable.DT_LocalPlayerExclusive]->m_traversalStartTime
 constexpr long OFFSET_TRAVERSAL_PROGRESS = 0x2b6c; //[RecvTable.DT_LocalPlayerExclusive]->m_traversalProgress
 constexpr long OFFSET_TRAVERSAL_RELEASE_TIME = 0x2b78; //[RecvTable.DT_LocalPlayerExclusive]->m_traversalReleaseTime
@@ -20,7 +20,7 @@ constexpr long OFFSET_WALL_RUN_CLEAR_TIME = 0x3678; //RecvTable.DT_LocalPlayerEx
 
 // Player
 constexpr long OFF_VIEW_MATRIX = 0x11A350; //[RecvTable.DT_Player]->ViewMatrix
-constexpr long OFF_VIEW_RENDER = 0x76E8738; //[RecvTable.DT_Player]->ViewRender
+constexpr long OFF_VIEW_RENDER = 0x76e88b8; //[RecvTable.DT_Player]->ViewRender
 constexpr long OFF_VIEW_MODELS = 0x2d98; //[RecvTable.DT_Player]->m_hViewModels
 constexpr long OFF_ZOOMING = 0x1be1; //[RecvTable.DT_Player]->m_bZooming
 constexpr long OFF_LOCAL_ORIGIN = 0x017c; //[DataMap.CBaseViewModel]->m_vecAbsOrigin
@@ -47,8 +47,8 @@ constexpr long OFF_YAW = 0x223c - 0x8;; //[DataMap.C_Player]=>m_currentFramePlay
 constexpr long OFF_NAMEINDEX = 0x38; //[RecvTable.DT_BaseEntity]
 constexpr long OFF_XPLEVEL = 0x3784; //m_xp
 constexpr long OFF_SQUAD_ID = 0x0344; //m_squadID
-constexpr long OFF_GAMEMODE = 0x0242d460; //mp_gamemode
-constexpr long OFF_SPECTATOR_LIST = 0x1f63068; //IDA signtature -> [48 8B 0D ? ? ? ? 48 85 C9 74 ? 48 8B 01 FF ? ? 48 85 C0 74 ? 48 63 4E 38]
+constexpr long OFF_GAMEMODE = 0x02420050; //mp_gamemode
+constexpr long OFF_SPECTATOR_LIST = 0x1F63068; //IDA signtature -> [48 8B 0D ? ? ? ? 48 85 C9 74 ? 48 8B 01 FF ? ? 48 85 C0 74 ? 48 63 4E 38]
 constexpr long OFF_SPECTATOR_LIST_ARRAY = 0x974;
 
 // Weapon
@@ -68,5 +68,5 @@ constexpr long HIGHLIGHT_TYPE_SIZE = 0x34;
 constexpr long OFF_GLOW_THROUGH_WALL = 0x26c; //[DT_HighlightSettings].?
 constexpr long OFF_GLOW_FIX = 0x278;
 constexpr long OFF_GLOW_HIGHLIGHT_ID = 0x29C; //[DT_HighlightSettings].m_highlightServerActiveStates
-constexpr long OFF_GLOW_HIGHLIGHTS = 0xB1DA220;
-constexpr long OFF_GLOW_ENABLE = 0x27c;
+constexpr long OFF_GLOW_HIGHLIGHTS = 0xb1da3a0;
+constexpr long OFF_GLOW_ENABLE = 0x26c;
