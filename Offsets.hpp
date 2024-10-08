@@ -6,7 +6,7 @@ constexpr long OFF_LEVEL = 0x18356c4; //[Miscellaneous]->LevelName
 constexpr long OFF_LOCAL_PLAYER = 0x24342B8;//[Miscellaneous]->LocalPlayer
 constexpr long OFF_ENTITY_LIST = 0x1f62278; //[Miscellaneous]->cl_entitylist
 constexpr long OFF_GLOBAL_VARS = 0x1836330; //[Miscellaneous]->GlobalVars
-constexpr long OFF_NAMELIST = 0xd427360; //[Miscellaneous]->NameList
+constexpr long OFF_NAMELIST = 0xd426160; //[Miscellaneous]->NameList
 
 // Buttons
 constexpr long OFF_IN_ATTACK = 0x76e89c0; //[Buttons]->in_attack
@@ -69,5 +69,5 @@ constexpr long HIGHLIGHT_TYPE_SIZE = 0x34;
 constexpr long OFF_GLOW_THROUGH_WALL = 0x26c; //[DT_HighlightSettings].?
 constexpr long OFF_GLOW_FIX = 0x278;
 constexpr long OFF_GLOW_HIGHLIGHT_ID = 0x29C; //[DT_HighlightSettings].m_highlightServerActiveStates
-constexpr long OFF_GLOW_HIGHLIGHTS = 0xb1da3a0;
+constexpr long OFF_GLOW_HIGHLIGHTS = 0xb1db5a0;
 constexpr long OFF_GLOW_ENABLE = 0x26c;
