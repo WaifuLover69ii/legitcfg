@@ -5,7 +5,7 @@ constexpr long OFF_LEVEL = 0x18356C4; //[Miscellaneous]->LevelName
 constexpr long OFF_LOCAL_PLAYER = 0x24354F8;//[Miscellaneous]->LocalPlayer
 constexpr long OFF_ENTITY_LIST = 0x1f62278; //[Miscellaneous]->cl_entitylist
 constexpr long OFF_GLOBAL_VARS = 0x1836330; //[Miscellaneous]->GlobalVars
-constexpr long OFF_NAMELIST = 0xd427360; //[Miscellaneous]->NameList
+constexpr long OFF_NAMELIST = 0xd426160; //[Miscellaneous]->NameList
 
 // Buttons
 constexpr long OFF_IN_ATTACK = 0x76e89c0; //[Buttons]->in_attack
