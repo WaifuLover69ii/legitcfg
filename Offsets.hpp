@@ -9,10 +9,10 @@ constexpr long OFF_GLOBAL_VARS = 0x1836330; //[Miscellaneous]->GlobalVars
 constexpr long OFF_NAMELIST = 0xd426160; //[Miscellaneous]->NameList
 
 // Buttons
-constexpr long OFF_IN_ATTACK = 0x76e89c0; //[Buttons]->in_attack
-constexpr long OFF_IN_JUMP = 0x76e8aa8; //[Buttons]->in_jump
-constexpr long OFF_IN_DUCK = 0x76e8bb0; //[Buttons]->in_duck
-constexpr long OFFSET_IN_FORWARD = 0x76e88f0; //[Buttons]->in_forward
+constexpr long OFF_IN_ATTACK = 0x076e9bc0; //[Buttons]->in_attack
+constexpr long OFF_IN_JUMP = 0x076e9cb8; //[Buttons]->in_jump
+constexpr long OFF_IN_DUCK = 0x076e9db0; //[Buttons]->in_duck
+constexpr long OFFSET_IN_FORWARD = 0x076e9af0; //[Buttons]->in_forward
 constexpr long OFFSET_TRAVERSAL_START_TIME = 0x2b70; //[RecvTable.DT_LocalPlayerExclusive]->m_traversalStartTime
 constexpr long OFFSET_TRAVERSAL_PROGRESS = 0x2b6c; //[RecvTable.DT_LocalPlayerExclusive]->m_traversalProgress
 constexpr long OFFSET_TRAVERSAL_RELEASE_TIME = 0x2b78; //[RecvTable.DT_LocalPlayerExclusive]->m_traversalReleaseTime
