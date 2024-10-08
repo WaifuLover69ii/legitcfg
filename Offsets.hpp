@@ -2,7 +2,7 @@
 #pragma once
 constexpr long OFF_REGION = 0x140000000; //[Static]->Region
 constexpr long OFF_LEVEL = 0x18356C4; //[Miscellaneous]->LevelName
-constexpr long OFF_LOCAL_PLAYER = 0x0246d860;//[Miscellaneous]->LocalPlayer
+constexpr long OFF_LOCAL_PLAYER = 0x24342B8;//[Miscellaneous]->LocalPlayer
 constexpr long OFF_ENTITY_LIST = 0x1f62278; //[Miscellaneous]->cl_entitylist
 constexpr long OFF_GLOBAL_VARS = 0x1836330; //[Miscellaneous]->GlobalVars
 constexpr long OFF_NAMELIST = 0xd426160; //[Miscellaneous]->NameList
