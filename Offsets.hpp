@@ -48,7 +48,7 @@ constexpr long OFF_YAW = 0x223c - 0x8;; //[DataMap.C_Player]=>m_currentFramePlay
 constexpr long OFF_NAMEINDEX = 0x38; //[RecvTable.DT_BaseEntity]
 constexpr long OFF_XPLEVEL = 0x3784; //m_xp
 constexpr long OFF_SQUAD_ID = 0x0344; //m_squadID
-constexpr long OFF_GAMEMODE = 0x0246d6a0; //mp_gamemode
+constexpr long OFF_GAMEMODE = 0x02420050; //mp_gamemode
 constexpr long OFF_SPECTATOR_LIST = 0x01f621d0 + 0x20c8; //IDA signtature -> [48 8B 0D ? ? ? ? 48 85 C9 74 ? 48 8B 01 FF ? ? 48 85 C0 74 ? 48 63 4E 38]
 constexpr long OFF_SPECTATOR_LIST_ARRAY = 0x974;
 
@@ -70,4 +70,4 @@ constexpr long OFF_GLOW_THROUGH_WALL = 0x26c; //[DT_HighlightSettings].?
 constexpr long OFF_GLOW_FIX = 0x278;
 constexpr long OFF_GLOW_HIGHLIGHT_ID = 0x29C; //[DT_HighlightSettings].m_highlightServerActiveStates
 constexpr long OFF_GLOW_HIGHLIGHTS = 0xb1db5a0;
-constexpr long OFF_GLOW_ENABLE = 0x27c;
+constexpr long OFF_GLOW_ENABLE = 0x26c;
