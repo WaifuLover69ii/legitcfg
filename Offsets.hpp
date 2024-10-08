@@ -3,7 +3,7 @@
 constexpr char OFF_GAME_VERSION[] = "v3.0.82.42"; //[Miscellaneous]->GameVersion
 constexpr long OFF_REGION = 0x140000000; //[Static]->Region
 constexpr long OFF_LEVEL = 0x18356c4; //[Miscellaneous]->LevelName
-constexpr long OFF_LOCAL_PLAYER = 0x24342B8;//[Miscellaneous]->LocalPlayer
+constexpr long OFF_LOCAL_PLAYER = 0x024354F8;//[Miscellaneous]->LocalPlayer
 constexpr long OFF_ENTITY_LIST = 0x1f62278; //[Miscellaneous]->cl_entitylist
 constexpr long OFF_GLOBAL_VARS = 0x1836330; //[Miscellaneous]->GlobalVars
 constexpr long OFF_NAMELIST = 0xd427360; //[Miscellaneous]->NameList
