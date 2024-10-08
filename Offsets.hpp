@@ -1,5 +1,6 @@
-// Game Version: v3.0.80.27
 #pragma once
+// [Miscellaneous]
+constexpr char OFF_GAME_VERSION[] = "v3.0.82.42"; //[Miscellaneous]->GameVersion
 constexpr long OFF_REGION = 0x140000000; //[Static]->Region
 constexpr long OFF_LEVEL = 0x18356C4; //[Miscellaneous]->LevelName
 constexpr long OFF_LOCAL_PLAYER = 0x24342B8;//[Miscellaneous]->LocalPlayer
