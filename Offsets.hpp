@@ -2,7 +2,7 @@
 #pragma once
 constexpr long OFF_REGION = 0x140000000; //[Static]->Region
 constexpr long OFF_LEVEL = 0x18356C4; //[Miscellaneous]->LevelName
-constexpr long OFF_LOCAL_PLAYER = 0x24354F8;//[Miscellaneous]->LocalPlayer
+constexpr long OFF_LOCAL_PLAYER = 0x0246d860;//[Miscellaneous]->LocalPlayer
 constexpr long OFF_ENTITY_LIST = 0x1f62278; //[Miscellaneous]->cl_entitylist
 constexpr long OFF_GLOBAL_VARS = 0x1836330; //[Miscellaneous]->GlobalVars
 constexpr long OFF_NAMELIST = 0xd426160; //[Miscellaneous]->NameList
@@ -47,7 +47,7 @@ constexpr long OFF_YAW = 0x223c - 0x8;; //[DataMap.C_Player]=>m_currentFramePlay
 constexpr long OFF_NAMEINDEX = 0x38; //[RecvTable.DT_BaseEntity]
 constexpr long OFF_XPLEVEL = 0x3784; //m_xp
 constexpr long OFF_SQUAD_ID = 0x0344; //m_squadID
-constexpr long OFF_GAMEMODE = 0x0246d6a0; //mp_gamemode
+constexpr long OFF_GAMEMODE = 0x02420050; //mp_gamemode
 constexpr long OFF_SPECTATOR_LIST = 0x01f621d0 + 0x20c8; //IDA signtature -> [48 8B 0D ? ? ? ? 48 85 C9 74 ? 48 8B 01 FF ? ? 48 85 C0 74 ? 48 63 4E 38]
 constexpr long OFF_SPECTATOR_LIST_ARRAY = 0x974;
 
